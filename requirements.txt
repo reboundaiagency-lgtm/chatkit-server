@@ -1,3 +1,4 @@
 fastapi
-openai
-uvicorn
+uvicorn[standard]
+openai  # or the specific OpenAI SDK package your environment requires
+pydantic
